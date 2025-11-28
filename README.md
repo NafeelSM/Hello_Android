@@ -1,11 +1,13 @@
-# Hello Android App
+# Welcome To Android App
 
-This app demonstrates improved UI layout.
+This app demonstrates improved UI layouts.
 
 ## Screenshots
 
 ### Main Screen
-![Main Activity](images/main_activity.png)
+!<img width="364" height="656" alt="image" src="https://github.com/user-attachments/assets/5d0d0942-8ca2-49f5-9fe2-88a548b5f8bd" />
+
 
 ### Improved UI
-![Improved UI](images/improved_ui.png)
+!<img width="361" height="647" alt="image" src="https://github.com/user-attachments/assets/aaec7954-b2a0-4e84-a49a-fcc30d1652bd" />
+
