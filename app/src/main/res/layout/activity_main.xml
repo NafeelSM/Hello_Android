@@ -4,48 +4,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding=""
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <!-- App Bar -->
-
-    <!-- Welcome Message -->
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:layout_marginBottom="100dp"
         android:background="#3F51B5"
         android:padding="16dp"
         android:text="HelloAndroid"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
-        android:layout_marginBottom="200dp"
-        />
+        android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/tvWelcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Android\nDevelopment!"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        android:textAlignment="center"
+    <!-- Main Content Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
         android:gravity="center"
-        android:layout_marginBottom="24dp"/>
+        android:padding="16dp">
 
-    <!-- Click Me Button -->
-    <Button
-        android:id="@+id/btnClickMe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click Me"
-        android:textColor="@android:color/white"
-        android:backgroundTint="#9E9E9E"
-        android:paddingStart="32dp"
-        android:layout_marginBottom="350dp"
-        android:paddingEnd="32dp"/>
+        <!-- Welcome Message -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Welcome to Android\nDevelopment!"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <!-- Click Me Button -->
+        <Button
+            android:id="@+id/btnClickMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D3D3D3"
+            android:padding="12dp"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:text="Click Me"
+            android:background="#3F51B5"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
 
 </LinearLayout>

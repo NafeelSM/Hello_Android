@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.Hello_Androud" parent="android:Theme.Material.Light.NoActionBar" />
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.Hello_android" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#00BCD4</item>
+    </style>
 </resources>
